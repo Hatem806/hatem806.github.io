@@ -5,5 +5,4 @@ $(document).ready(function () {
   const tooltipList = [...tooltipTriggerList].map(
     (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
   );
-  console.log("asd");
 });
