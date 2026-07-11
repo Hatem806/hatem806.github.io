@@ -6,232 +6,286 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <title>Projects</title>
+    <title>Hatem Abdelsattar | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="my-5">
-    <div class="container mx-auto text-center">
-      <p class="my-5 display-4 text-center">
-        Here is a list of projects I worked on
-      </p>
+  <body>
+    <!-- Header / Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#web-dev">Web Development</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ui-ux">UI/UX Design</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-3">
+            <a href="https://github.com/hatem806" target="_blank" class="text-dark fs-5 social-icon"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/in/hatem806" target="_blank" class="text-dark fs-5 social-icon"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-      <h1>Web development</h1>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-1">
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+      <div class="container">
+        <h1 class="display-3 fw-bold mb-3">Hatem Abdelsattar</h1>
+        <p class="lead mb-4 text-muted">Software Engineer & UI/UX Designer</p>
+        <p class="mb-5 hero-subtitle">Crafting digital experiences with modern web technologies and intuitive design.</p>
+        <a href="#web-dev" class="btn btn-primary btn-lg rounded-pill px-4 shadow-sm">View My Work <i class="bi bi-arrow-down ms-2"></i></a>
+      </div>
+    </section>
+
+    <div class="container mx-auto text-center">
+      <div id="web-dev" class="section-header mt-5 mb-4">
+        <h2 class="fw-bold">Web Development</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+      
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1 justify-content-center">
+        <!-- VIA -->
         <div class="col">
-          <div class="card">
-            <img src="./images/via.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">VIA</h5>
-              <p class="card-text">Hospitalization luxury</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/via.png" class="card-img-top" alt="VIA" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">VIA</h5>
+              <p class="card-text text-muted flex-grow-1">Hospitalization luxury</p>
               <a
                 target="_blank"
-                href="https://ecstatic-mccarthy-b05c0a.netlify.app/"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                href="https://hatem806.github.io/via-website/"
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
+        
+        <!-- Asar Medical -->
         <div class="col">
-          <div class="card">
-            <img src="./images/asar-med.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Asar Medical</h5>
-              <p class="card-text">Medical Devices Distributor</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/asar-med.png" class="card-img-top" alt="Asar Medical" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Asar Medical</h5>
+              <p class="card-text text-muted flex-grow-1">Medical Devices Distributor</p>
               <a
                 target="_blank"
-                href="https://asarmedical.com/"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                href="https://hatem806.github.io/asar-medical/"
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
+
+        <!-- Links & Gains -->
         <div class="col">
-          <div class="card">
-            <img src="./images/mt-trade.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Mostafa Tahoun Trade</h5>
-              <p class="card-text">Animal Supplements Distributor</p>
-              <a
-                target="_blank"
-                href="http://mtahoun.com/"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
-              >
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/links-and-gains.png" class="card-img-top" alt="Links & Gains" />
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="./images/saraya.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Surgitech</h5>
-              <p class="card-text">Hand Sanetizers E-commerce Website</p>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Links & Gains</h5>
+              <p class="card-text text-muted flex-grow-1">Law Firm Website</p>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1RczYmNACdE4KQaKuRWH3BEFSGZReGgiG/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                href="https://hatem806.github.io/LinksAndGains_wordpress/"
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
       </div>
-      <h1 class="mt-5">UI/UX design</h1>
-      <div
-        class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-1 justify-content-center"
-      >
+
+      <div id="ui-ux" class="section-header mt-5 pt-5 mb-4">
+        <h2 class="fw-bold">UI/UX Design</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+      
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-1 justify-content-center">
         <div class="col">
-          <div class="card">
-            <img src="./images/monorail.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Cairo Monorail App</h5>
-              <p class="card-text">Graduation Project</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/monorail.png" class="card-img-top" alt="Cairo Monorail App" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Cairo Monorail App</h5>
+              <p class="card-text text-muted flex-grow-1">Graduation Project</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1bOPNgcRkRinYzV1Y3NvnQcj56FbVtJV0/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="./images/tacit.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Tacitapp</h5>
-              <p class="card-text">CLM mobile application</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/tacit.png" class="card-img-top" alt="Tacitapp" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Tacitapp</h5>
+              <p class="card-text text-muted flex-grow-1">CLM mobile application</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1o5U8BDLrNVt3muT3HYvne36sSUj7ukEY/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="./images/padel.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Padel House</h5>
-              <p class="card-text">Padel Courts Reservations App</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/padel.png" class="card-img-top" alt="Padel House" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Padel House</h5>
+              <p class="card-text text-muted flex-grow-1">Padel Courts Reservations App</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1DPu4wM6QlSmPrZiyBkFrYnO94u-dmTOf/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="./images/enjywael.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Enjy & Wael</h5>
-              <p class="card-text">Medical Assistance Chatbot</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/enjywael.png" class="card-img-top" alt="Enjy & Wael" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Enjy & Wael</h5>
+              <p class="card-text text-muted flex-grow-1">Medical Assistance Chatbot</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1hCpmvpstw6BH2rRt_O68KcQ_T4_XnP-T/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="./images/locations.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Locations App</h5>
-              <p class="card-text">GPS Location Logging</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/locations.png" class="card-img-top" alt="Locations App" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Locations App</h5>
+              <p class="card-text text-muted flex-grow-1">GPS Location Logging</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1F4WZi1doRRPq2BnEYegRJmZI-OBn6IUd/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="./images/novartis.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Novartis</h5>
-              <p class="card-text">Products Brand site</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/novartis.png" class="card-img-top" alt="Novartis" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Novartis</h5>
+              <p class="card-text text-muted flex-grow-1">Products Brand site</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1IqLKLIfYhLgaHfMHldiUwSfER9CeTwiX/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img
-              src="./images/5od-nafasak.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body text-start">
-              <h5 class="card-title">5od Nafasak</h5>
-              <p class="card-text">E-learning Platform</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/5od-nafasak.png" class="card-img-top" alt="5od Nafasak" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">5od Nafasak</h5>
+              <p class="card-text text-muted flex-grow-1">E-learning Platform</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1EZoM5f6mBiCdEZtXKYQr1N-3AFHkyJmN/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="./images/eucerin.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Eucerin</h5>
-              <p class="card-text">Questionnaire App</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/eucerin.png" class="card-img-top" alt="Eucerin" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Eucerin</h5>
+              <p class="card-text text-muted flex-grow-1">Questionnaire App</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1Sn44TisS4I2Tuwy9yjrGvbOFcp6lyKrl/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="./images/pos.png" class="card-img-top" alt="..." />
-            <div class="card-body text-start">
-              <h5 class="card-title">Restaurants POS</h5>
-              <p class="card-text">React POS Web App</p>
+          <div class="card h-100 project-card border-0 shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="./images/pos.png" class="card-img-top" alt="Restaurants POS" />
+            </div>
+            <div class="card-body text-start d-flex flex-column">
+              <h5 class="card-title fw-bold">Restaurants POS</h5>
+              <p class="card-text text-muted flex-grow-1">React POS Web App</p>
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1mrIIIhLBIHGIf1n3AOqh5YEktIgXtCFu/view?usp=sharing"
-                class="btn btn-primary"
-                ><i class="bi bi-box-arrow-up-right"></i> View Project</a
+                class="btn btn-outline-primary mt-3 stretched-link rounded-pill"
+                ><i class="bi bi-box-arrow-up-right me-1"></i> View Project</a
               >
             </div>
           </div>
         </div>
       </div>
 
-      <figure class="text-center mt-5">
-        <figcaption class="blockquote-footer">
-          <cite title="Source Title">More projects coming soon...</cite>
-        </figcaption>
-      </figure>
-      <p class="small text-muted mt-5">Hatem Abdelsattar - 2022</p>
+      <footer class="mt-5 pt-5 pb-4">
+        <figure class="text-center">
+          <figcaption class="blockquote-footer fs-6">
+            <cite title="Source Title">Always learning, always building.</cite>
+          </figcaption>
+        </figure>
+        <p class="small text-muted">&copy; 2026 Hatem Abdelsattar. All rights reserved.</p>
+      </footer>
+      
       <script src="./js/jquery-3.6.0.min.js"></script>
       <script src="./js/index.js"></script>
       <script src="./js/bootstrap.bundle.min.js"></script>
